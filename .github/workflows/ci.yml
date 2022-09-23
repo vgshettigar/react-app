@@ -8,7 +8,7 @@ jobs:
     steps: 
       - uses: actions/checkout@v3
       - name: Use nodeJs
-        uses: action/setup-node@v2
+        uses: action/setup-node@v1
         with:
           node-version: "12.x"
       - run: npm ci 
